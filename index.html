@@ -23,4 +23,52 @@
         <li>Clinton Hillary</li>
     </ol>
   </p>
+  <form action="/form.com">
+    <label for="userName">User Name :</label> 
+    <input type="text" placeholder="User Name" name="userName" id="userName" required />
+    <br/><br/>
+    <label for="email">Email :</label> 
+    <input type="email" placeholder="Email" required name="email" id="email" />
+    <br/><br/>
+    <label for="tel" id="contact">Tel. :</label> 
+    <input type="tel" placeholder="Tel" name="tel" id="tel" />
+    <br/><br/>
+    <label for="dob">Date of Birth :</label> 
+    <input type="date" placeholder="Date of Birth" name="dob" id="dob" >
+    <br/><br/>
+
+    <label for="martialStatus">Martial Status :</label>
+    <label for="married">Married :</label>
+    <input type="radio" id="married" name="martialstatus" checked value="married" />
+    <label for="unmarried">Unmarried :</label>
+    <input type="radio" id="unmarried" name="martialstatus" value="unmarried" />
+    <br /> <br />
+
+    <label for="sex">Sex :</label>
+    <label for="Male">Male :</label>
+    <input type="radio" id="male" name="sex" checked value="male" />
+    <label for="female">Female :</label>
+    <input type="radio" id="female" name="sex" value="female" />
+    <br /> <br />
+
+    <label for="color-select">Choose a color:</label>
+    <select name="color" id="color-select">
+        <option value="">--Please choose an option--</option>
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="yellow">Yellow</option>
+        <option value="maron">Maron</option>
+        <option value="magenta">Magenta</option>
+        <option value="orange">Orange</option>
+    </select>
+    <br /> <br />
+    <label for="profilepicture">Profile Picture :</label>
+    <input type="file" name="profilepicture" id="profilepicture" />
+    <br /> <br />
+    <label for="newsletter">Send me weekly news letter.</label>
+    <input type="checkbox" name="newsletter" id="newsletter" checked/>
+    <br /> <br />
+    <button type="submit">Submit</button>
+
+  </form>
 </body>
