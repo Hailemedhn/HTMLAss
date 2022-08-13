@@ -23,27 +23,32 @@
         <li>Clinton Hillary</li>
     </ol>
   </p>
+  
   <form action="/form.com">
-    <label for="userName">User Name :</label> 
-    <input type="text" placeholder="User Name" name="userName" id="userName" required />
-    <br/><br/>
-    <label for="email">Email :</label> 
-    <input type="email" placeholder="Email" required name="email" id="email" />
-    <br/><br/>
-    <label for="tel" id="contact">Tel. :</label> 
-    <input type="tel" placeholder="Tel" name="tel" id="tel" />
-    <br/><br/>
-    <label for="dob">Date of Birth :</label> 
-    <input type="date" placeholder="Date of Birth" name="dob" id="dob" >
-    <br/><br/>
-
+    <table>
+      <tr>
+      <td><label for="userName"><b>User Name* :</b></label></td>
+      <td><input type="text" placeholder="User Name" name="userName" id="userName" required /></td>
+      </tr>
+      <tr>
+        <td><label for="email"><b>Email* :</b></label> </td>
+        <td> <input type="email" placeholder="Email" required name="email" id="email" /></td>
+      </tr>
+      <tr>
+      <td><label for="tel" id="contact"><b>Tel. :</b></label></td>
+        <td><input type="tel" placeholder="Tel" name="tel" id="tel" /></td>
+      </tr>
+      <tr>
+        <td><label for="dob">Date of Birth :</label></td>
+        <td> <input type="date" placeholder="Date of Birth" name="dob" id="dob" ></td>
+      </tr>
+    </table>
     <label for="martialStatus">Martial Status :</label>
     <label for="married">Married :</label>
     <input type="radio" id="married" name="martialstatus" checked value="married" />
     <label for="unmarried">Unmarried :</label>
     <input type="radio" id="unmarried" name="martialstatus" value="unmarried" />
-    <br /> <br />
-
+    <br /><br />
     <label for="sex">Sex :</label>
     <label for="Male">Male :</label>
     <input type="radio" id="male" name="sex" checked value="male" />
@@ -71,4 +76,5 @@
     <button type="submit">Submit</button>
 
   </form>
+  
 </body>
